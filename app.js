@@ -48,6 +48,22 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: 'olivia',
             img: 'images/olivia.jpg'
+        },
+        {
+            name: 'sumia',
+            img: 'images/sumia.jpg'
+        },
+        {
+            name: 'sumia',
+            img: 'images/sumia.jpg'
+        },
+        {
+            name: 'nowi',
+            img: 'images/nowi.jpg'
+        },
+        {
+            name: 'nowi',
+            img: 'images/nowi.jpg'
         }
     ];
 
@@ -97,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = []
         resultDisplay.textContent = cardsWon.length
         if (cardsWon.length === cardArray.length/2) {
-            resultDisplay.textContent = 'You found all of the matches! You are a memory champion!'
+            resultDisplay.textContent = 'Victory! You found all of the matches! You are a memory champion!'
         }
     };
 

@@ -1,6 +1,24 @@
 .grid {
     display: flex;
     flex-wrap: wrap;
-    _height: 300px;
-    _width: 400px;
+    padding-bottom: 25%;
+    background-color: rgb(32, 6, 32);
+    padding: 10px;
+
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    padding: 3px;
+    box-shadow: rgb(23, 23, 39);
+}
+
+h3 {
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+body {
+    background-color: rgb(178, 170, 190);
 }
